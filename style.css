@@ -1,0 +1,58 @@
+:root {
+    --color-bg: #dbd0d0;
+    --color-text: #6c757d;
+    --color-accent: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 32px;
+    padding: 32px;
+    width: 400px;
+    text-align: center;
+
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-color: #4A6741;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 16px;
+}
+
+.nom{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.profile{
+    color: #666;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
